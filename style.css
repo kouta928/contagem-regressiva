@@ -13,11 +13,14 @@ body{
 
 h1{
     font-size: 3rem;
-    margin: 4rem 0 0 0;
+    margin: 6rem 0 0 0;
     font-weight: normal;
 }
 
 .countdown-container{
+    background-color: black;
+    border: 1rem solid black;
+    border-radius: 2rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -27,7 +30,7 @@ h1{
 .big-text{
     font-size: 6rem;
     line-height: 1;
-    margin: 2rem 2rem;
+    margin: 1rem 2rem;
 }
 
 .countdown-el{
@@ -36,5 +39,4 @@ h1{
 
 .countdown-el span{
     font-size: 1.2rem;
-    background-color: black;
 }
