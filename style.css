@@ -68,3 +68,28 @@ footer{
         justify-content: center;
     }
 }
+
+@media (max-width: 600px){
+    h1{
+        font-size: 2rem;
+        margin: 6rem 0 0 0;
+        font-weight: normal;
+    }
+
+    .big-text{
+        font-size: 6rem;
+        line-height: 1;
+        margin: 1rem .3rem;
+    }
+    
+    .countdown-container{
+        background-color: black;
+        border: 1rem solid black;
+        border-radius: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0.8);
+    }
+}
