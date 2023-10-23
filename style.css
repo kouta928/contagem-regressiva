@@ -44,3 +44,27 @@ h1{
 footer{
     margin-top: 32em;
 }
+
+@media (max-width: 800px){
+    h1{
+        font-size: 2rem;
+        margin: 6rem 0 0 0;
+        font-weight: normal;
+    }
+
+    .big-text{
+        font-size: 6rem;
+        line-height: 1;
+        margin: 1rem .5rem;
+    }
+    
+    .countdown-container{
+        background-color: black;
+        border: 1rem solid black;
+        border-radius: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
